@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pmydm.libreandroid.ClickMc">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="377dp"
+        android:layout_height="192dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginStart="4dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/btnprincipalmc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/mcdonalslogoamplio" />
+
+    <ImageButton
+        android:id="@+id/btnprincipalmc"
+        android:layout_width="118dp"
+        android:layout_height="112dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginStart="49dp"
+        android:onClick="caseButton"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintEnd_toStartOf="@+id/btnmenumc"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:srcCompat="@drawable/logomc" />
+
+    <ImageButton
+        android:id="@+id/btnmenumc"
+        android:layout_width="135dp"
+        android:layout_height="108dp"
+        android:layout_marginEnd="66dp"
+        android:layout_marginTop="2dp"
+        android:onClick="caseButton"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnprincipalmc"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:srcCompat="@drawable/mcpayaso"
+        tools:layout_editor_absoluteX="147dp" />
+
+    <ImageButton
+        android:id="@+id/btnempleo"
+        android:layout_width="111dp"
+        android:layout_height="92dp"
+        android:layout_marginEnd="142dp"
+        android:onClick="caseButton"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/textView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnAtras"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:srcCompat="@drawable/ticketpromo" />
+
+    <Button
+        android:id="@+id/btnAtras"
+        android:layout_width="93dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="57dp"
+        android:text="Atrás"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnempleo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logofondo"
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="142dp"
+        android:layout_height="37dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginStart="29dp"
+        android:fontFamily="cursive"
+        android:text="@string/p_gina_web"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnempleo"
+        app:layout_constraintEnd_toStartOf="@+id/textView4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnprincipalmc" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="102dp"
+        android:layout_height="42dp"
+        android:layout_marginBottom="3dp"
+        android:fontFamily="cursive"
+        android:text="@string/empleo"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnempleo" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="14dp"
+        android:layout_marginEnd="73dp"
+        android:layout_marginTop="7dp"
+        android:fontFamily="cursive"
+        android:text="@string/men"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnempleo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/btnmenumc" />
+</android.support.constraint.ConstraintLayout>

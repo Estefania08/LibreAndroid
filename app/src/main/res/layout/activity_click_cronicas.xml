@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/logofondo"
+            android:layout_width="0dp"
+            android:layout_height="512dp"
+            app:srcCompat="@drawable/cronicaslogo"
+            tools:layout_constraintTop_creator="1"
+            tools:layout_constraintRight_creator="1"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="-1dp"
+            tools:layout_constraintLeft_creator="1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginStart="4dp"
+            android:fontFamily="cursive"
+            android:text="@string/elige_tu_producto"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@android:color/black"
+            android:textSize="34sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.515"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.034"
+            tools:layout_constraintLeft_creator="1"
+            tools:layout_constraintRight_creator="1" />
+
+        <ImageButton
+            android:id="@+id/btnTapaCronicas"
+            android:layout_width="102dp"
+            android:layout_height="88dp"
+            android:layout_marginBottom="118dp"
+            android:layout_marginRight="16dp"
+            android:onClick="caseButton"
+            android:scaleType="fitCenter"
+            app:layout_constraintBottom_toTopOf="@+id/btnHamburguesaCronicas"
+            app:layout_constraintRight_toRightOf="parent"
+            app:srcCompat="@drawable/tapacronicas"
+            tools:layout_constraintBottom_creator="1"
+            tools:layout_constraintRight_creator="1" />
+
+        <ImageButton
+            android:id="@+id/btnHamburguesaCronicas"
+            android:layout_width="0dp"
+            android:layout_height="88dp"
+            android:layout_marginBottom="59dp"
+            android:onClick="caseButton"
+            android:scaleType="fitCenter"
+            app:layout_constraintBottom_toBottomOf="@+id/logofondo"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="@+id/btnTapaCronicas"
+            app:layout_constraintRight_toRightOf="@+id/btnTapaCronicas"
+            app:srcCompat="@drawable/hamburguesacronicas"
+            tools:layout_constraintBottom_creator="1"
+            tools:layout_constraintLeft_creator="1"
+            tools:layout_constraintRight_creator="1" />
+
+        <ImageButton
+            android:id="@+id/btnBurritoCronicas"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="caseButton"
+            android:scaleType="fitCenter"
+            app:layout_constraintBottom_toBottomOf="@+id/btnHamburguesaCronicas"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="@+id/btnBocadillosCronicas"
+            app:layout_constraintRight_toRightOf="@+id/btnBocadillosCronicas"
+            app:layout_constraintTop_toTopOf="@+id/btnHamburguesaCronicas"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/burritocronicas"
+            tools:layout_constraintBottom_creator="1"
+            tools:layout_constraintLeft_creator="1"
+            tools:layout_constraintRight_creator="1"
+            tools:layout_constraintTop_creator="1" />
+
+        <ImageButton
+            android:id="@+id/btnBocadillosCronicas"
+            android:layout_width="102dp"
+            android:layout_height="88dp"
+            android:layout_marginBottom="118dp"
+            android:layout_marginLeft="16dp"
+            android:onClick="caseButton"
+            android:scaleType="fitCenter"
+            app:layout_constraintBottom_toTopOf="@+id/btnBurritoCronicas"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:srcCompat="@drawable/bocadillocronicas"
+            tools:layout_constraintBottom_creator="1"
+            tools:layout_constraintLeft_creator="1" />
+
+        <Button
+            android:id="@+id/btnAtras"
+            android:layout_width="86dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="-384dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="0dp"
+            android:text="@string/atr_s"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/logofondo"
+            app:layout_constraintVertical_bias="1.0"
+            tools:layout_constraintLeft_creator="1"
+            tools:layout_constraintTop_creator="1" />
+    </android.support.constraint.ConstraintLayout>
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Android Gratuit</string>
+    <string name="atr_s">DERRIÈRE</string>
+    <string name="elige_tu_producto">CHOISISSEZ VOTRE PRODUIT</string>
+    <string name="elige_tu_restaurante">CHOISISSEZ VOTRE RESTAURANT</string>
+    <string name="empleo">EMPLOI</string>
+    <string name="men">MENU</string>
+    <string name="p_gina_web">PAGE WEB</string>
+    <string name="reserva">RÉSERVER</string>
+</resources>

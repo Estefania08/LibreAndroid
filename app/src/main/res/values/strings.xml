@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">LibreAndroid</string>
+    <string name="atr_s">Atrás</string>
+    <string name="elige_tu_producto">ELIGE TU PRODUCTO</string>
+    <string name="p_gina_web">PÁGINA WEB</string>
+    <string name="empleo">EMPLEO</string>
+    <string name="men">MENÚ</string>
+    <string name="reserva">RESERVA</string>
+    <string name="elige_tu_restaurante">ELIGE TU RESTAURANTE</string>
+</resources>

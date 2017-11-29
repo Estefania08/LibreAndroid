@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LibreAndroid</string>
+    <string name="reserva">RESERVE</string>
+    <string name="p_gina_web">WEBSEITE</string>
+    <string name="men">MENÜ</string>
+    <string name="elige_tu_restaurante">WÄHLE DEIN RESTAURANT</string>
+    <string name="elige_tu_producto">WÄHLE DEIN PRODUKT</string>
+    <string name="empleo">BESCHÄFTIGUNG</string>
+    <string name="atr_s">ZURÜCK</string>
+</resources>

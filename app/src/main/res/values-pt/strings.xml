@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Android Livre</string>
+    <string name="atr_s">Para trás</string>
+    <string name="elige_tu_producto">ESCOLHA O SEU PRODUCTO</string>
+    <string name="elige_tu_restaurante">ESCOLHA O SEU RESTAURANTE</string>
+    <string name="empleo">EMPREGO</string>
+    <string name="men">MENU</string>
+    <string name="p_gina_web">PÁGINA WEB</string>
+    <string name="reserva">RESERVA</string>
+</resources>
